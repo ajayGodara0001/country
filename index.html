@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTRIES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-info">
+            <h3><a href="/" class="home">Home</a></h3>
+            <p class="themeChanger"><i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p>
+        </div>
+    </header>
+
+    <!-- main containor -->
+    <main>
+
+        <div class="search-filter">
+
+            <div class="search">
+                <i style="font-size: 15px;" class="fa-solid fa-magnifying-glass"></i><input class="inputSearch" placeholder="Search for country..." type="text">
+            </div>
+
+            <div class="filter"> 
+                <select class="select-region">
+                    <option selected hidden>Filter by Region</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Africa">Africa</option>
+                    <option value="America">America</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="allCountries">
+
+            <!-- <div class="country-card">
+                <a href="#">
+                    <div class="image-container"><img src="https://flagcdn.com/gd.svg" alt="flag-image"></div>
+                    <div class="content">
+                        <h3 class="country-name">Iceland</h3>
+                        <p><b>Population: </b>34,56,788</p>
+                        <p><b>Region: </b>Europe</p>
+                        <p><b>Capital: </b>Berlin</p>
+                    </div>
+                </a>
+            </div> -->
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
