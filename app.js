@@ -49,7 +49,7 @@ regionSelect.addEventListener("change", (e) => {
 inputSearch.addEventListener("input", (e) => {
     const filteredCountry = allCountry.filter((country) => {
         return (
-            country.name.common.toLowerCase().includes(e.target.value.toLowerCase())
+            country.name.common.toLowerCase().includes(e.target.value.toLowerCase().trim())
         )
     })
     renderCountry(filteredCountry)
